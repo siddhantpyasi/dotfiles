@@ -6,3 +6,6 @@ I've switched to the standard vim in /usr/bin/vim, but I've left the init.vim fi
 
 Here's a screenshot of my colour scheme, I've overridden the background to make it black (#000000)
 ![Alt text](screenshot.png "Screenshot of colour scheme")
+
+
+Managing dotfiles using yadm.
