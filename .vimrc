@@ -4,30 +4,32 @@
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-	" Let Vundle manage itself
-	Plugin 'gmarik/Vundle.vim'
+    " Let Vundle manage itself
+    Plugin 'gmarik/Vundle.vim'
+    " Easy alignment
+    Plugin 'junegunn/vim-easy-align'
     " Clangd
-"    Plugin 'Chilledheart/vim-clangd'
+    "    Plugin 'Chilledheart/vim-clangd'
     " Completion
     Plugin 'maralla/completor.vim'
     " Minimap
     Plugin 'severin-lemaignan/vim-minimap'
-	" Nerdtree
-	Plugin 'scrooloose/nerdtree'
-	" Wakatime
-	Plugin 'wakatime/vim-wakatime'
-	" Airline theme
-	Plugin 'vim-airline/vim-airline'
-	Plugin 'vim-airline/vim-airline-themes'
-	" Autopair 
-	Plugin 'jiangmiao/auto-pairs' 
-	" Python Syntax
-	Plugin 'hdima/python-syntax'
+    " Nerdtree
+    Plugin 'scrooloose/nerdtree'
+    " Wakatime
+    Plugin 'wakatime/vim-wakatime'
+    " Airline theme
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
+    " Autopair 
+    Plugin 'jiangmiao/auto-pairs' 
+    " Python Syntax
+    Plugin 'hdima/python-syntax'
     " C Syntax
     Plugin 'NLKNguyen/c-syntax.vim'
-	" Markdown highlighting
-	Plugin 'godlygeek/tabular'
-	Plugin 'plasticboy/vim-markdown'
+    " Markdown highlighting
+    Plugin 'godlygeek/tabular'
+    Plugin 'plasticboy/vim-markdown'
 call vundle#end()
 
 " Minimap 
@@ -50,25 +52,25 @@ filetype plugin indent on
 set omnifunc=syntaxcomplete#Complete
 
 let g:PaperColor_Theme_Options = {
-  \   'theme': {
-  \     'default.dark': { 
-  \       'override' : {
-  \         'color00' : ['#000000', ''],
-  \       }
-  \     }
-  \   },
-  \   'language': {
-  \     'python': {
-  \       'highlight_builtins' : 1
-  \     },
-  \     'cpp': {
-  \       'highlight_standard_library': 1
-  \     },
-  \     'c': {
-  \       'highlight_builtins' : 1
-  \     }
-  \   }
-  \ }
+            \   'theme': {
+            \     'default.dark': { 
+            \       'override' : {
+            \         'color00' : ['#000000', ''],
+            \       }
+            \     }
+            \   },
+            \   'language': {
+            \     'python': {
+            \       'highlight_builtins' : 1
+            \     },
+            \     'cpp': {
+            \       'highlight_standard_library': 1
+            \     },
+            \     'c': {
+            \       'highlight_builtins' : 1
+            \     }
+            \   }
+            \ }
 
 " Colour scheme settings
 set background=dark
