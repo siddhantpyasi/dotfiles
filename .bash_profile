@@ -4,6 +4,7 @@ export WEB_URL='http://www.coursera.org'
 export EDITOR=/usr/bin/vim
 
 alias calculator="bc -l"
+alias kindlegen="~/Downloads/KindleGen_Mac_i386_v2_9/kindlegen"
 
 # Aliases for VLC and rtv
 alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
