@@ -36,9 +36,9 @@ call vundle#end()
 " let g:clangd#codecomplete_timeout = 10
 
 " Minimap 
-let g:minimap_highlight='markdownLinkText'
+"let g:minimap_highlight='markdownLinkText'
 
-autocmd! VimEnter * Minimap
+"autocmd! VimEnter * Minimap
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
@@ -54,11 +54,14 @@ set history=80		" keep 80 lines of command line history
 filetype plugin indent on
 set omnifunc=syntaxcomplete#Complete
 
+set t_Co=256
+
 let g:PaperColor_Theme_Options = {
             \   'theme': {
             \     'default.dark': { 
             \       'override' : {
-            \         'color00' : ['#000000', ''],
+            \         'color00' : ['#011827', ''],
+            \         'linenumber_bg' : ['#011827', '']
             \       }
             \     }
             \   },
