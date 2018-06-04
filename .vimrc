@@ -9,7 +9,7 @@ call vundle#begin()
     " Easy alignment
     Plugin 'junegunn/vim-easy-align'
     " Clangd
-"    Plugin 'Chilledheart/vim-clangd'
+    "    Plugin 'Chilledheart/vim-clangd'
     " Completion
     Plugin 'maralla/completor.vim'
     " Minimap
@@ -31,9 +31,6 @@ call vundle#begin()
     Plugin 'godlygeek/tabular'
     Plugin 'plasticboy/vim-markdown'
 call vundle#end()
-
-" Clangd options
-" let g:clangd#codecomplete_timeout = 10
 
 " Minimap 
 "let g:minimap_highlight='markdownLinkText'
