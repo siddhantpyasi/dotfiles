@@ -40,8 +40,8 @@ source '/Users/smu/lib/azure-cli/az.completion'
 
 # Till such time as VimR remains out of favour
 # Make VimR accessible from the terminal when you type vim or vi
-alias vim='/usr/bin/vim'
-alias vi='/usr/bin/vim'
+alias vim='/Applications/MacVim.app/Contents/MacOS/MacVim'
+alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -68,3 +68,6 @@ parse_git_branch() {
 #export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 export PS1="\W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 export PATH="/usr/local/opt/llvm/bin:$PATH"	#get clang in PATH
+
+# OPAM configuration
+. /Users/smu/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
