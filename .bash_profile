@@ -9,8 +9,7 @@ alias calculator="bc -l"
 # Aliases for VLC and rtv
 alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
 alias rtv="rtv --enable-media"
-
-# Aliases for pip2 and pip3
+alias ocaml="utop"
 alias pip2="/usr/local/bin/pip2.7"
 alias pip3="/usr/local/bin/pip3.6"
 
